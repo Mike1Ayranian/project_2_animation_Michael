@@ -1,3 +1,15 @@
+@import 'https://fonts.googleapis.com/css?family=Mountains+of+Christmas';
 body {
-  background-color: deepskyblue
+  background-color: deepskyblue;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-family: Mountains of Christmas;
+  text-align: center;
+  color: blue;
 }
