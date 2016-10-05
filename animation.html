@@ -8,33 +8,48 @@
     <h1>Snowman Season!</h1>
     <h3> I created a snowman in a snowy environment. The snow is the little circles bellow the sun and the clouds, and the snowman has a little top hat. I created this because I know that december is coming up and so are the holidays, so that inspired me to make this.</h3>
     <svg width="100%" height="600" viewBox=0 0 200 100>
-  <circle r="200" radius="100" fill="yellow"/ stroke="black"/>
-  <circle r="10" cx="200" cy="700"fill="white"/>
-   <circle r="10" cx="250" cy="500"fill="white"/>
-   <circle r="10" cx="890" cy="347"fill="white"/>
-   <circle r="10" cx="100" cy="650"fill="white"/>
-   <circle r="10" cx="654" cy="221"fill="white"/>
-   <circle r="10" cx="700" cy="250"fill="white"/>
-   <circle r="10" cx="379" cy="379"fill="white"/>
-   <circle r="10" cx="24" cy="300"fill="white"/>
-   <circle r="10" cx="950" cy="960"fill="white"/>
-  <ellipse cx="300" cy="100" rx="100" ry="50" fill="white" opacity="0.75"/>
-  <ellipse cx="600" cy="150" rx="150" ry="50" fill="white" opacity="0.75"/>
-  <ellipse cx="900" cy="100" rx="100" ry="75" fill="white" opacity="0.75"/>
-  <ellipse cx="1000" cy="100" rx="100" ry="50" fill="white" opacity="0.75"/>
+  <circle r="200" radius="100" fill="yellow"/ stroke="black">
+    <animate attributeName="fill" from="yellow" to="gold"  dur="2s" id="circle-animation"/>
+    <animate attributeName="fill" from="gold" to="yellow" repeatCount="indefinite" dur="2s" id="circle-animation"/>
+  </circle>
+   <circle r="10" cx="200" cy="700" fill="white">
+     <animate attributeName="cy" from="700" to="900" dur="5s" repeatCount="indefinite"/>
+  </circle>
+   <circle r="10" cx="250" cy="500" fill="white"/>
+   <circle r="10" cx="890" cy="347" fill="white"/>
+   <circle r="10" cx="100" cy="650" fill="white"/>
+   <circle r="10" cx="654" cy="221" fill="white"/>
+   <circle r="10" cx="700" cy="250" fill="white"/>
+   <circle r="10" cx="379" cy="379" fill="white"/>
+   <circle r="10" cx="240" cy="300" fill="white"/>
+   <circle r="10" cx="950" cy="960" fill="white"/>
+  <ellipse cx="100" cy="100" rx="100" ry="50" fill="white" opacity="0.75">
+    <animate attributeName="cx" from="100" to="500" dur="15s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="400" cy="150" rx="150" ry="50" fill="white" opacity="0.75">
+    <animate attributeName="cx" from="400" to="700" dur="20s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="700" cy="100" rx="100" ry="75" fill="white" opacity="0.75">
+    <animate attributeName="cx" from="700" to="1000" dur="15s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="800" cy="100" rx="100" ry="50" fill="white" opacity="0.75">
+    <animate attributeName="cx" from="800" to="1100" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
   <rect x="500" y="550" width="100" height="50" fill="white"/>
   <rect x="513" y="500" width="75" height="50" fill="white"/>
   <rect x="525" y="450" width="50" height="50" fill="white"/>
   <circle cx="537" cy="465" r="5" fill="black"/>
   <circle cx="560" cy="465" r="5" fill="black"/>
   <line x1="530" y1="486" x2="565" y2="486" stroke="black" stroke-width="9"/>
-  <line x1="640" y1="486" x2="565" y2="520" stroke="brown" stroke-width="6"/>
+  <line x1="640" y1="486" x2="565" y2="520" stroke="brown" stroke-width="6">
+    <animate attributeName="x1" from="150" to="200" dur="5s" repeatCount="indefinite"/>
+  </line>
   <line x1="460" y1="486" x2="535" y2="520" stroke="brown" stroke-width="6"/>
   <circle cx="550" cy="575" r="5" fill="black"/>
   <circle cx="550" cy="545" r="5" fill="black"/>
   <circle cx="550" cy="515" r="5" fill="black"/>
   <rect x="530" y="410" width="40" height="40" fill="black"/>
-    <line x1="515" y1="446" x2="585" y2="446" stroke="black" stroke-width="9"/>
+  <line x1="515" y1="446" x2="585" y2="446" stroke="black" stroke-width="9"/>
   <svg/>
   </svg>
   </body>
